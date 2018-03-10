@@ -7,8 +7,18 @@
 # Visit http://www.pragmaticprogrammer.com/titles/rails51 for more book information.
 #---
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/help'
+
+  get 'static_pages/about'
+
+  resources :line_items
+  resources :carts
+  get 'store/index'
+
   resources :products
   
-  root 'products#index'
+  root 'store#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
