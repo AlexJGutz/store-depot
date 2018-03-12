@@ -12,3 +12,9 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+three:
+  title: MyString3
+  description: MyText
+  image_url: MyString3.jpg
+  price: 9.99
