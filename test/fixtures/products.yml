@@ -2,15 +2,15 @@
 # http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
+  title: MyString1
   description: MyText
-  image_url: MyString
+  image_url: MyString.gif
   price: 9.99
 
 two:
-  title: MyString
+  title: MyString2
   description: MyText
-  image_url: MyString
+  image_url: MyString2.jpg
   price: 9.99
 
 three:
@@ -18,3 +18,5 @@ three:
   description: MyText
   image_url: MyString3.jpg
   price: 9.99
+  
+  
