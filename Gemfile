@@ -7,6 +7,7 @@ end
 
 ruby '2.4.2'
 gem 'bundler', '~>1.16.1'
+gem "bcrypt", "~> 3.1.1"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
